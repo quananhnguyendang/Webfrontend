@@ -1,0 +1,15 @@
+<p>item-list works!</p>
+<ul>
+    <li *ngFor="let item of itemList | async">
+        <!-- {{item.id}},{{item.manufacturer}},{{item.name}},{{item.price}},{{item.type}} -->
+        {{item.id}} - {{item.manufacturer}} - {{item.name}} - {{item.price}} - {{item.type}}
+    </li>
+</ul>
+<hr>
+<ul>
+    <li *ngFor="let item of itemList1 ">
+        <!-- {{item.id}},{{item.manufacturer}},{{item.name}},{{item.price}},{{item.type}} -->
+        {{item.id}} - {{item.manufacturer}} - {{item.name}} - {{item.price}} - {{item.type}}
+    </li>
+</ul>
+

@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Project192A"
+    }
+  },
+  "defaultProject": "Project192A",
+  "cli": {
+    "analytics": "f06edae3-a17b-418d-b967-a22f013eb3e3"
+  }
 }
